@@ -12,7 +12,7 @@ export interface ProfileDetailsProps {
  */
 export const ProfileDetails = ({ className }: ProfileDetailsProps) => {
     return (
-        <div className={classNames(styles.root, className, styles.profile, styles.profileCard)}>
+        <div className={classNames(styles.root, className, styles.profileCard)}>
             <img
                 className={styles.profileImage}
                 alt="profile headshot of employee"

@@ -11,11 +11,10 @@ export interface ProfileFiltersProps {
  */
 export const ProfileFilters = ({ className }: ProfileFiltersProps) => {
     return (
-        <ul className={classNames(styles.profileFilter, className)}>
-                <li className={styles.link}>Daily</li>
-                <li className={styles.activeLink}>Weekly</li>
-                <li className={styles.link}>Monthly</li>
-            </ul>
-
+        <div className={classNames(styles.profileFilter, className)}>
+            <a href="JavaScript:void(0);">Daily</a>
+            <a href="JavaScript:void(0);" className={classNames(styles.active, className)}>Weekly</a>
+            <a href="JavaScript:void(0);">Monthly</a>
+        </div>
     );
 };

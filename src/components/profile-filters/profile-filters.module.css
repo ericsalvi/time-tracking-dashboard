@@ -2,7 +2,6 @@
   color: white;
   font-size: 1rem;
   display: flex;
-  gap: 5px;
   align-items: center;
   justify-items: center;
   justify-content: space-between;
@@ -11,18 +10,15 @@
   font-family: inherit;
   padding: 26px 30px;
   margin: 0px;
-  & a {
-    transition: color 0.2s ease-in-out;
-    color: hsl(235, 45%, 61%);
-    text-decoration: none;
-    &:hover {
-      color: white;
-    }
-    &:active {
-      color: white;
-    }
-    &.active {
-      color:white;
-    }
-  }
+  transition: color 0.3s ease-in-out;
 }
+.profileFilter .activeLink {
+  cursor: pointer;
+}
+.profileFilter .link {
+  color: hsl(235, 45%, 61%);
+  cursor: pointer;
+}
+.profileFilter .link:hover {
+  color: white;
+}/*# sourceMappingURL=profile-filters.module.css.map */
