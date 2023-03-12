@@ -1,11 +1,25 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+body {
+  background: hsl(226, 43%, 10%);
+  padding: 82px 25px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
-} */
+.work {
+  background: url(./images/icon-work.svg), hsl(15, 100%, 70%);
+}
+.play {
+  background: url(./images/icon-play.svg), hsl(195, 74%, 62%);
+}
+.study {
+  background: url(./images/icon-study.svg), hsl(348, 100%, 68%);
+}
+.exercise {
+  background: url(./images/icon-exercise.svg), hsl(145, 58%, 55%);
+}
+.social {
+  background: url(./images/icon-social.svg), hsl(264, 64%, 52%);
+}
+.selfCare {
+  background: url(./images/icon-self-care.svg), hsl(43, 84%, 65%);
+}
