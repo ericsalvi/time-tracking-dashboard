@@ -1,9 +1,10 @@
 import styles from './App.module.scss';
+import { Profile } from './components/profile/profile';
 
 function App() {
     return (
         <div className={styles.App}>
-            <h1>Time Tracker</h1>
+            <Profile />
         </div>
     );
 }
