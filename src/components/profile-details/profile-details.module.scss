@@ -1,0 +1,26 @@
+.profileCard {
+  display: flex;
+  align-items: center;
+  gap: 0px 17px;
+  background-color: hsl(246, 80%, 60%);
+  padding: 32px 28px;
+  color: hsl(195, 74%, 62%);
+  border-radius: 15px;
+  margin: 0px;
+}
+.profileImage {
+  border-radius: 50%;
+  border: 3px solid white;
+  width: 64px;
+}
+.profileText {
+  font-weight: 300;
+  margin: 0px;
+  font-size: 1rem;
+}
+.profileName {
+  font-weight: 300;
+  color: white;
+  font-size: 1.5rem;
+  margin: 4px 0px 0px;
+}

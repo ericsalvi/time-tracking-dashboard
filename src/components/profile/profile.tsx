@@ -1,6 +1,7 @@
 import styles from './profile.module.scss';
 import classNames from 'classnames';
-import ProfileImage from '../../images/image-jeremy.png';
+import { ProfileDetails } from '../profile-details/profile-details';
+import { ProfileFilters } from '../profile-filters/profile-filters';
 
 export interface ProfileProps {
     className?: string;
@@ -12,14 +13,11 @@ export interface ProfileProps {
  */
 export const Profile = ({ className }: ProfileProps) => {
     return (
-        <div className={classNames(styles.root, className)}>
-            <div className={styles.profile}>
-                <img className={styles.profileImage} alt="profile headshot of employee" src={ProfileImage} />
-                <div>
-                    <p className={styles.profileText}>Report for</p>
-                    <h1 className={styles.profileName}>Jeremy Robson</h1>
-                </div>
-            </div>
+        <div
+            className={classNames(styles.root, className, styles.profile)}
+        >
+            <ProfileDetails />
+            <ProfileFilters />
         </div>
     );
 };
