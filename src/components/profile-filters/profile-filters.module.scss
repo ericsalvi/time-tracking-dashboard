@@ -1,0 +1,23 @@
+.profileFilter {
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-between;
+  align-content: center;
+  list-style-type: none;
+  font-family: inherit;
+  padding: 26px 30px;
+  margin: 0px;
+  & .activeLink {
+    cursor: pointer;
+  }
+  & .link {
+    color: hsl(235, 45%, 61%);
+    cursor: pointer;
+    &:hover {
+      color: white;
+    }
+  }
+}
