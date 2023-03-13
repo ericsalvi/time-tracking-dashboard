@@ -1,6 +1,5 @@
 import styles from './card.module.scss';
 import classNames from 'classnames';
-import Ellipsis from '../../images/icon-ellipsis.svg';
 
 export interface CardProps {
     className?: string;
@@ -19,7 +18,18 @@ export const Card = ({ className, title, thisWeek, lastWeek }: CardProps) => {
             <div className={styles.cardContainer}>
                 <div className={styles.cardTopContainer}>
                     <h3 className={styles.cardTitle}>{title}</h3>
-                    <img src={Ellipsis} />
+                    <svg
+                        width="21"
+                        height="5"
+                        xmlns="http://www.w3.org/2000/svg"
+                        className={styles.cardEllipsis}
+                    >
+                        <path
+                            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                            fill="#BBC0FF"
+                            fill-rule="evenodd"
+                        />
+                    </svg>
                 </div>
                 <div className={styles.cardBottomContainer}>
                     <h2 className={styles.cardHours}>{thisWeek}hrs</h2>

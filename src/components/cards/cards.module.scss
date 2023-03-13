@@ -2,9 +2,9 @@
   display: grid;
   gap: 24px;
 }
-.Work {
-    background-color: hsl(15, 100%, 70%);
-}
-.Play {
-  background: green;
+
+@media(min-width: 768px) {
+  .cardContainer {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
 }
