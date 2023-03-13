@@ -12,9 +12,9 @@ export interface ProfileFiltersProps {
 export const ProfileFilters = ({ className }: ProfileFiltersProps) => {
     return (
         <div className={classNames(styles.profileFilter, className)}>
-            <a href="JavaScript:void(0);">Daily</a>
-            <a href="JavaScript:void(0);" className={classNames(styles.active, className)}>Weekly</a>
-            <a href="JavaScript:void(0);">Monthly</a>
+            <a href="/">Daily</a>
+            <a href="/" className={classNames(styles.active, className)}>Weekly</a>
+            <a href="/">Monthly</a>
         </div>
     );
 };

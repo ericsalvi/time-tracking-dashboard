@@ -23,3 +23,17 @@ body {
 .selfCare {
   background: url(./images/icon-self-care.svg), hsl(43, 84%, 65%);
 }
+
+@media (min-width: 768px) {
+  body {
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+  }
+}
+
+@media (min-width: 1110px) {
+  body {
+    padding: 0 25px;
+  }
+}

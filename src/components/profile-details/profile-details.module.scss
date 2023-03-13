@@ -7,6 +7,7 @@
   color: hsl(195, 74%, 62%);
   border-radius: 15px;
   margin: 0px;
+  justify-content: center;
 }
 .profileImage {
   border-radius: 50%;
@@ -23,4 +24,23 @@
   color: white;
   font-size: 1.5rem;
   margin: 4px 0px 0px;
+}
+@media(min-width: 768px){
+  .profileCard {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .profileText {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1110px) {
+  .profileCard {
+    align-items: flex-start;
+  }
+  .profileText {
+    text-align: left;
+  }
 }
