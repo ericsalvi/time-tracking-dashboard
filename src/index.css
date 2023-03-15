@@ -5,22 +5,22 @@ body {
   padding: 82px 25px;
 }
 
-.work {
+.cardHours:nth-child(1) {
   background: url(./images/icon-work.svg), hsl(15, 100%, 70%);
 }
-.play {
+.cardHours:nth-child(2) {
   background: url(./images/icon-play.svg), hsl(195, 74%, 62%);
 }
-.study {
+.cardHours:nth-child(3) {
   background: url(./images/icon-study.svg), hsl(348, 100%, 68%);
 }
-.exercise {
+.cardHours:nth-child(4) {
   background: url(./images/icon-exercise.svg), hsl(145, 58%, 55%);
 }
-.social {
+.cardHours:nth-child(5) {
   background: url(./images/icon-social.svg), hsl(264, 64%, 52%);
 }
-.selfCare {
+.cardHours:nth-child(6) {
   background: url(./images/icon-self-care.svg), hsl(43, 84%, 65%);
 }
 
