@@ -5,6 +5,10 @@ body {
   padding: 82px 25px;
 }
 
+.active {
+  color:white !important;
+}
+
 .cardHours:nth-child(1) {
   background: url(./images/icon-work.svg), hsl(15, 100%, 70%);
 }
