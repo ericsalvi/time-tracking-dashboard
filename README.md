@@ -13,7 +13,6 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,10 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
+![ipad responsive](./design/ipad-responsive.png)
 ![weekly data](./design/weekly-view.png)
 ![daily data](./design/daily-view.png)
 ![monthly data](./design/monthly-view.png)
-![ipad responsive](./design/ipad-responsive.png)
 
 ### Links
 
