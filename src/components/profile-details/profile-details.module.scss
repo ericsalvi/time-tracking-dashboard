@@ -39,8 +39,16 @@
 @media (min-width: 1110px) {
   .profileCard {
     align-items: flex-start;
+    padding-bottom: 60px;
+    gap: 40px;
+  }
+  .profileImage {
+    width: 79px;
   }
   .profileText {
     text-align: left;
+  }
+  .profileName {
+    font-size: 2.5rem;
   }
 }
