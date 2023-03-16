@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [FrontendMentor.io](https://www.frontendmentor.io/solutions/dynamic-time-tracking-dashboard-built-w-codux-react-and-ts-OgZdC2ugTB)
+- Live Site URL: [https://ericsalvi.github.io/time-tracking-dashboard/](https://ericsalvi.github.io/time-tracking-dashboard/)
 
 ## My process
 
