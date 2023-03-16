@@ -13,7 +13,7 @@ function App() {
     }
 
     return (
-        <div className={styles.App}>
+        <div role="main" className={styles.App}>
             <Profile setDurationType={setDurationType}/>
             <Cards getDurationType={duration}/>
         </div>

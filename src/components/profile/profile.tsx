@@ -8,7 +8,7 @@ export interface ProfileProps {
     setDurationType?: any;
 }
 
-const menuItems = ["Daily", "Weekly", "Monthly"];
+const menuItems = ['Daily', 'Weekly', 'Monthly'];
 
 /**
  * This component was created using Codux's Default new component template.
@@ -17,16 +17,19 @@ const menuItems = ["Daily", "Weekly", "Monthly"];
 export const Profile = ({ className, setDurationType }: ProfileProps) => {
     const [selectedMI, setSelectedMI] = useState(menuItems[1]);
     return (
-        <div className={classNames(styles.root, className, styles.profile)}>
+        <div className={classNames(styles.root, className, styles.profile)} role="contentinfo">
             <ProfileDetails />
             <div className={classNames(className, styles.profileFilter)}>
-            {menuItems.map((menuItem) => (
-                <a
-                className={selectedMI === menuItem ? "active" : ""}
-                onClick={() => {setSelectedMI(menuItem); setDurationType(menuItem.toLowerCase())}} 
-                >
-                {menuItem}
-                </a>
+                {menuItems.map((menuItem) => (
+                    <a
+                        className={selectedMI === menuItem ? 'active' : ''}
+                        onClick={() => {
+                            setSelectedMI(menuItem);
+                            setDurationType(menuItem.toLowerCase());
+                        }}
+                    >
+                        {menuItem}
+                    </a>
                 ))}
             </div>
         </div>
