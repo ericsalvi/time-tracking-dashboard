@@ -17,7 +17,7 @@ export const Card = ({ className, title, thisWeek, lastWeek }: CardProps) => {
         <div className={classNames(className, styles.card)}>
             <div className={styles.cardContainer}>
                 <div className={styles.cardTopContainer}>
-                    <h3 className={styles.cardTitle}>{title}</h3>
+                    <h2 className={styles.cardTitle}>{title}</h2>
                     <svg
                         width="21"
                         height="5"
@@ -32,7 +32,7 @@ export const Card = ({ className, title, thisWeek, lastWeek }: CardProps) => {
                     </svg>
                 </div>
                 <div className={styles.cardBottomContainer}>
-                    <h2 className={styles.cardHours}>{thisWeek}hrs</h2>
+                    <h3 className={styles.cardHours}>{thisWeek}hrs</h3>
                     <p className={styles.cardPastHours}>Last Week - {lastWeek}hrs</p>
                 </div>
             </div>

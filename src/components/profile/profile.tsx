@@ -17,7 +17,7 @@ const menuItems = ['Daily', 'Weekly', 'Monthly'];
 export const Profile = ({ className, setDurationType }: ProfileProps) => {
     const [selectedMI, setSelectedMI] = useState(menuItems[1]);
     return (
-        <div className={classNames(styles.root, className, styles.profile)} role="contentinfo">
+        <div className={classNames(styles.root, className, styles.profile)}>
             <ProfileDetails />
             <div className={classNames(className, styles.profileFilter)}>
                 {menuItems.map((menuItem) => (

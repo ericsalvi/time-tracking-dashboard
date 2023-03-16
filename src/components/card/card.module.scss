@@ -31,6 +31,7 @@
   margin: 0px;
   font-family: inherit;
   font-size: 1.1rem;
+  font-weight: normal;
 }
 .cardHours {
   font-weight: 300;
@@ -48,7 +49,6 @@
   position: relative;
   right: -10px;
 }
-
 .cardEllipsis path {
   transition: all 0.2s ease-in-out;
 }
